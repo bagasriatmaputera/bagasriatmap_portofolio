@@ -76,3 +76,7 @@ footer {
 .social-links a img:hover {
   transform: scale(1.2); /* efek zoom saat hover */
 }
+
+body{
+  width: 100%;
+}

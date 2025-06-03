@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bagas's site</title>
-    <link rel="icon" href="/src/Brp logo.png" type="image/png">
+    <link rel="icon" href="/src/Brp logo.png" type="image/png" />
     <link rel="stylesheet" href="style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
@@ -58,81 +58,81 @@
     </nav>
 
     <!-- Home -->
-    <div class="container-fluid d-flex justify-content-center mt-5 pt-5">
-      <div
-        id="home"
-        class="home col-12 col-sm-6 mb-3 d-flex justify-content-between align-items-center"
-      >
-        <div class="text me-2">
-          <h3 style="color: aliceblue">Hello, It's Me</h3>
-          <h1 style="color: aliceblue">Bagas Riatma Putera</h1>
-          <h3 style="color: aliceblue">
-            And i'm a <span style="color: #03eefb">Fullstack Developer</span>
-          </h3>
-          <p class="mt-3 text-white">
-            I'm a fullstack web developer from Jakarta, Indonesia, passionate
-            about building fast, <br />
-            functional, and user-friendly websites that make an impact.
-          </p>
-        </div>
-        <div class="photoCard ms-2">
-          <div class="card" style="width: 18rem">
-            <img
-              class="bagasImg"
-              src="/src/bagas 1.jpg"
-              class="card-img-top object-fit-cover"
-              alt="..."
-            />
-            <div class="card-body">
-              <p class="card-text fst-italic">
-                "It's not just a code, it’s solving real-world problems with
-                logic."
-              </p>
+    <div id="home" class="container-fluid mt-5 pt-5 col-10">
+      <div class="row ">
+        <div class="col-12 col-xm-12 col-sm-12 col-md-4 mb-3">
+          <div class="photoCard ms-2">
+            <div class="card" style="width: 340px">
+              <img
+                class="bagasImg"
+                src="/src/bagas 1.jpg"
+                class="card-img-top object-fit-cover"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text fst-italic">
+                  "It's not just a code, it’s solving real-world problems with
+                  logic."
+                </p>
+              </div>
             </div>
+          </div>
+        </div>
+        <div class="col-12 col-xm-12 col-sm-12 col-md-8 d-flex align-items-center">
+          <div class="text me-2">
+            <h3 style="color: aliceblue">Hello, It's Me</h3>
+            <h1 style="color: aliceblue">Bagas Riatma Putera</h1>
+            <h3 style="color: aliceblue">
+              And i'm a <span style="color: #03eefb">Fullstack Developer</span>
+            </h3>
+            <p class="mt-3 text-white">
+              I'm a fullstack web developer from Jakarta, Indonesia, passionate
+              about building fast, <br />
+              functional, and user-friendly websites that make an impact.
+            </p>
           </div>
         </div>
       </div>
 
       <!-- Project -->
     </div>
-    <div class="container-fluid mt-5">
+    <div class="container-fluid col-12 mt-5">
       <div
         style="background: #3e3f5b"
-        class="container rounded-4 p-4 text-white d-flex flex-column align-items-center"
+        class="container-fluid rounded-4 text-white d-flex flex-column align-items-center"
       >
         <div class="text">
           <h2 class="text-center" id="projects">My Projects</h2>
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3 d-flex justify-content-center w-100">
+          <div
+            class="row col-12 col-sm-6 col-md-4 col-lg-3 mb-3 d-flex justify-content-center w-100"
+          >
             <!-- project -->
-            <div class="myprojects col-md-4 ms-5" >
+            <div class="myprojects col-12 col-xs-12 col-md-4 mb-2">
               <img
-                class="object-fit-cover"
-                style="width: 260px; height: 200px; border-radius: 10px"
+                class="img-fluid rounded-3 object-fit-cover"
                 name="laravel"
                 src="/src/project1.png"
                 alt=""
               />
             </div>
-            <div class="myprojects col-md-4 ms-5">
-              <img class="object-fit-cover"
-                style="width: 260px; height: 200px; border-radius: 10px"
+            <div class="myprojects col-12 col-xs-12 col-md-4 mb-2">
+              <img
+                class="img-fluid rounded-3 object-fit-cover"
                 name="laravel"
                 src="/src/project2.png"
                 alt=""
               />
             </div>
-            <div class="myprojects col-md-4 ms-5">
-              <img class="object-fit-cover"
-                style="width: 260px; height: 200px; border-radius: 10px"
+            <div class="myprojects col-12 col-xs-12 col-md-4 mb-2">
+              <img
+                class="img-fluid rounded-3 object-fit-cover"
                 name="laravel"
                 src="/src/project3.png"
                 alt=""
               />
             </div>
           </div>
-          <h3 class="text-center mb-2 mt-3" >
-            Tools & Technologies
-          </h3>
+          <h3 class="text-center mb-2 mt-3">Tools & Technologies</h3>
         </div>
         <!-- tools tech -->
         <div class="technology d-flex justify-content-center flex-wrap mt-3">
@@ -277,7 +277,7 @@
           Feel free to contact me with any inquiries or questions!
         </p>
       </div>
-      <div id="contact" class="form w-50">
+      <div id="contact" class="form col-12 col-sm-10">
         <form
           action="https://formspree.io/f/mzzgpkvw"
           method="POST"
@@ -326,9 +326,15 @@
     <footer>
       <h3>Let's connect</h3>
       <div class="social-link">
-        <a href="https://www.linkedin.com/in/bagasriatmap/"><img src="/src/linkedin.png" alt=""></a>
-        <a href="https://github.com/bagasriatmaputera/"><img src="/src/github.png" alt=""></a>
-        <a href="https://www.instagram.com/bgs.rptr/"><img src="/src/instagram1.png" alt=""></a>
+        <a href="https://www.linkedin.com/in/bagasriatmap/"
+          ><img src="/src/linkedin.png" alt=""
+        /></a>
+        <a href="https://github.com/bagasriatmaputera/"
+          ><img src="/src/github.png" alt=""
+        /></a>
+        <a href="https://www.instagram.com/bgs.rptr/"
+          ><img src="/src/instagram1.png" alt=""
+        /></a>
       </div>
     </footer>
   </body>
